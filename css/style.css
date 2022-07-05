@@ -50,3 +50,24 @@ h1{
     height: 400px;
     margin-top: 3px;
 }
+
+/* Main: Creazione pulsanti */
+.elementoPrincipale input{
+    padding: 7px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+#pulsante1{
+    color: #fff;
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+    margin-left: 60px;
+}
+
+#pulsante2{
+    color: #cfd4d8;
+    background-color: #fff;
+    border: 1px solid #cad0d4;
+}
