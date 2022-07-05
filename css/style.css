@@ -1,73 +1,162 @@
 /* Reset css */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Inserimento colore sfondo alla pagina */
-body{
+body {
     background-color: #f6f8f9;
 }
 
 /* Header: barra bianca con logo */
-header{
+header {
     height: 90px;
     background-color: #fff;
 }
 
-img{
+img {
     width: 55px;
     margin: 10px 0px 10px 20px;
     line-height: 90px;
     vertical-align: middle;
 }
 
-h1{
+h1 {
     display: inline;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 40px;
     line-height: 90px;
     vertical-align: middle;
 }
 
 /* Main: creazione struttura dei due contenitori */
-.elementoPrincipale{
+.elementoPrincipale {
     margin: 50px auto;
     width: 70%;
     background-color: #fff;
 }
 
-#areaPulsanti{
+#areaPulsanti {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 70px;
+    height: 60px;
     margin-bottom: 3px;
 }
 
-#areaContenuto{
+#areaContenuto {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    height: 400px;
     margin-top: 3px;
+    padding: 10px 40px;
 }
 
 /* Main: Creazione pulsanti */
-.elementoPrincipale input{
+.elementoPrincipale input {
     padding: 7px 10px;
     border-radius: 7px;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 18px;
 }
 
-#pulsante1{
+#pulsante1 {
     color: #fff;
     background-color: #47adf1;
     border: 1px solid #47adf1;
     margin-left: 60px;
 }
 
-#pulsante2{
+#pulsante2 {
     color: #cfd4d8;
     background-color: #fff;
     border: 1px solid #cad0d4;
+}
+
+/* Main: Creazione lista */
+ul {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    margin: 30px;
+}
+
+.elementoLista {
+    margin-bottom: 25px;
+}
+
+.triangolo {
+    font-size: 10px;
+}
+
+.titoloLista {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.elementoListaInterno {
+    margin-left: 0;
+}
+
+.effettuato {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 12px;
+    border: 2px solid #73c7b2;
+    color: #73c7b2;
+    font-size: 13px;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.nonEffettuato {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 12px;
+    border: 2px solid #ed706a;
+    color: #ed706a;
+    font-size: 13px;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+/* Struttura etichetta e area colori*/
+.etichetta {
+    border-radius: 15px;
+    padding: 6px 10px;
+    margin-left: 5px;
+    color: #fff;
+}
+
+.editorial{
+    background-color: #45abea;
+}
+
+.goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.website{
+    background-color: #d863a1;
+}
+
+.sales{
+    background-color: #b0c926;
 }
