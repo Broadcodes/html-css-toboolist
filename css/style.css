@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Inserimento colore sfondo alla pagina */
+body{
+    background-color: #f6f8f9;
+}
 
 /* Header: barra bianca con logo */
 header{
@@ -24,4 +28,25 @@ h1{
     font-size: 40px;
     line-height: 90px;
     vertical-align: middle;
+}
+
+/* Main: creazione struttura dei due contenitori */
+.elementoPrincipale{
+    margin: 50px auto;
+    width: 70%;
+    background-color: #fff;
+}
+
+#areaPulsanti{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 70px;
+    margin-bottom: 3px;
+}
+
+#areaContenuto{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 400px;
+    margin-top: 3px;
 }
